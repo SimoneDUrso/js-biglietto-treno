@@ -14,3 +14,4 @@ else if (eta > 65) {
 
 let prezzo_finale = prezzo_biglietto - (prezzo_biglietto * sconto);
 
+document.getElementById("prezzo_finale").innerHTML += prezzo_finale.toFixed(2) + "€"
